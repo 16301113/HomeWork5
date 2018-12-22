@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <!--<Button-->
+        <!--android:textAllCaps="false"-->
+        <!--android:id="@+id/btn_test_http"-->
+        <!--android:text="test"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content" />-->
+
+    <Button
+        android:id="@+id/button_sina"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@android:color/darker_gray"
+        android:text="Login Using Sina"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/iv_head_url_sina"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:scaleType="fitStart"
+        android:layout_marginTop="50dp"/>
+
+    <Button
+        android:id="@+id/enter_btn"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@android:color/darker_gray"
+        android:text="Enter App"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/name_weibo"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
